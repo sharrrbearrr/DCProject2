@@ -13,6 +13,9 @@ This block activates the function that initializes the wifi, allowing the user/S
 All blocks following this function require the output from this block as in input, in order to function properly.
 
 # IR Sensors
+
+https://user-images.githubusercontent.com/31410952/32416494-f1584f26-c217-11e7-961c-6b86f4c35fa4.png
+
 This block uses the wifi connection to pull readings from the Roomba's 6 onboard IR sensors. A value of one indicates and obstacle and a value of zero indicates no obstacle.
 
 The output from this block is taken as an input into the Wheel Control block. Following the block logic, the Roomba avoids obstacles if IR sensors detect an obstacle (logic value 1).
