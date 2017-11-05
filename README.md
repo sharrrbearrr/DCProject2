@@ -5,6 +5,9 @@ In the attached files you may find the library .slx file. Below is a description
 
 
 # Wifi Initialization
+
+https://user-images.githubusercontent.com/31410952/32416495-f161c70e-c217-11e7-8684-5ffa5b2e109a.png
+
 This block activates the function that initializes the wifi, allowing the user/Simulink to communicate with the serially communicate with the Roomba.
 
 All blocks following this function require the output from this block as in input, in order to function properly.
