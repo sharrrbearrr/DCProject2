@@ -37,7 +37,7 @@ This block takes the output from the IR sensors, Wifi Out, and the Temperature b
 
 # STEPS
 
-https://user-images.githubusercontent.com/31410952/32416496-f16ae6e0-c217-11e7-9783-ea69a9f3f868.png
+https://user-images.githubusercontent.com/31410952/32416636-6bfa722a-c21a-11e7-9932-7b19256c207d.png
 
 1. Download the libraries I have attached 
 
