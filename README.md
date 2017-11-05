@@ -21,9 +21,26 @@ This block uses the wifi connection to pull readings from the Roomba's 6 onboard
 The output from this block is taken as an input into the Wheel Control block. Following the block logic, the Roomba avoids obstacles if IR sensors detect an obstacle (logic value 1).
 
 # Temperature Block
+
+https://user-images.githubusercontent.com/31410952/32416496-f16ae6e0-c217-11e7-9783-ea69a9f3f868.png
+
 The temperature block is the final input for the Wheel Control Block, acting as the parameter for the temperature failsafe programmed into the Wheel Control Logic.
+
+# Sensor Wheel Block
+
+This block takes the output from the IR sensors, Wifi Out, and the Temperature blocks in order to activate the Roomba, enabling it to avoid obstacles and have a failsafe.
 
 # NOTE
 1. IR Sensors may not detect darker color obstacles (black) but does detect lighter obstacles (white) very well. This is because black absorbs light and White reflects it.
 
 2. The temperature failsafe is set to 15 degrees Celcius. This temperature is adjustable in the Wheel Control block
+
+# STEPS
+
+https://user-images.githubusercontent.com/31410952/32416496-f16ae6e0-c217-11e7-9783-ea69a9f3f868.png
+
+1. Download the libraries I have attached 
+
+2. Connect the blocks as shown in the screenshot.
+
+3. Hit Run!
